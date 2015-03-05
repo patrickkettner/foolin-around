@@ -1,0 +1,7 @@
+language: objective-c
+before_install:
+  - brew update
+  - brew install caskroom/cask/brew-cask
+  - brew cask install google-chrome firefox node
+script:
+  - npm test
